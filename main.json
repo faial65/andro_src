@@ -1,0 +1,25 @@
+{
+  "limits": {
+    "cashOut": {
+      "perDay": 10000,
+      "perTransaction": 2000
+    },
+    "sendMoney": {
+      "perDay": 5000,
+      "perTransaction": 1000
+    }
+  },
+  "charges": {
+    "cashOut": {
+      "percentage": 2,
+      "agentPercentage": 1,
+      "ownerPercentage": 1
+    },
+    "payBill": 10,
+    "sendMoney": {
+      "above100": 5,
+      "below100": 0
+    }
+  },
+  "ownerAccount": "faisal@gmail.com"
+}
