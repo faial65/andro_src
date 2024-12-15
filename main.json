@@ -15,7 +15,10 @@
       "agentPercentage": 1,
       "ownerPercentage": 1
     },
-    "payBill": 10,
+    "payBill":{ 
+      "electricity":5,
+      "internet":10
+    },
     "sendMoney": {
       "above100": 5,
       "below100": 0
